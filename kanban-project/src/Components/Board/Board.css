@@ -1,0 +1,91 @@
+.board {
+    min-width: 290px;
+    width: 290px;
+    max-height: 100%;
+    flex-basis: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .board_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b085ca;
+    border-radius: 10px;
+    border: 4px rgb(125, 43, 188) solid;
+  }
+  
+  .board_header_title {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+  }
+  
+  .board_header_title span {
+    color: rgb(171, 22, 22);
+  }
+  
+  .board_header_title_more {
+    cursor: pointer;
+    position: relative; 
+    color: black;
+    padding-right: 5px;
+  }
+
+  /* a:hover {
+    opacity: 1;
+    cursor: pointer;
+  } */
+  
+  .board_dropdown {
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.12);
+    padding-bottom: 20px;
+    width: 100px !important;
+    height: 50px;
+    cursor: default;
+    position: relative;
+    background-color: #e75252;
+  }
+  .board_dropdown p{
+    border-bottom: 1px solid #f8f8f8;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .board_cards {
+    background-color: #7266ba;
+    padding: 30px;
+    padding-left: 10px;
+    border-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    border-top: 4px rgb(24, 109, 159) solid;
+    border-bottom: 4px rgb(24, 109, 159) solid;
+    height: 500px;
+  }
+  
+  .board_add-card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+    color: #128521;
+  }
+  .board_add-card_edit {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  
+  
